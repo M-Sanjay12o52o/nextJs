@@ -43,6 +43,8 @@ export async function POST(request: NextRequest) {
       httpOnly: true
     })
 
+    // response.redirect("/profile");
+
     return response;
 
   } catch (err: any) {
